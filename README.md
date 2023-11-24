@@ -27,7 +27,7 @@ Build a Symfony MVC application for a casino games list lobby. The application s
   - Utilize lazy loading techniques to optimize the application's performance, especially when loading game details.
 
 - **Docker Containerized App:**
-  - Containerize the React application using Docker for ease of deployment and consistency across environments.
+  - Containerize the application using Docker for ease of deployment and consistency across environments.
 
 ## Other Requirements
 
