@@ -7,7 +7,7 @@ Build a Symfony MVC application for a casino games list lobby. The application s
 ## Functionality
 
 1. **Load Games List:**
-   - Retrieve the games list from a data source. You can choose to load it from a Provider Json or Database.
+   - Retrieve the games list from the provided API - https://casino-games-api.united-remote.dev/api-docs/#/default/get_games
    - Implement a mechanism for lazy loading to enhance performance.
 
 2. **Search for a Game:**
@@ -19,9 +19,6 @@ Build a Symfony MVC application for a casino games list lobby. The application s
    - Implement a user-friendly interface for viewing game details.
 
 ## Nice to Haves
-
-- **Migrations:**
-  - Implement migrations for data changes instead of loading directly from a JSON file or other static source.
 
 - **Lazy Loading:**
   - Utilize lazy loading techniques to optimize the application's performance, especially when loading game details.
